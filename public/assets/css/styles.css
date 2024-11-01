@@ -1,0 +1,50 @@
+:root {
+    --gb-primary: #212121;
+    --gb-secondary: #f3f3f3;
+    --input-color-primary: #f3f3f3;
+    --font-primary: 'Montserrat', sans-serif;
+    --font-color-primary: #f5f5f5;
+    --font-color-secondary: #111;
+    --color-grey-line: #999999;
+}
+
+body {
+    background-color: var(--gb-primary);
+    color: var(--font-color-primary);
+}
+
+.error-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    gap: 3rem;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #f3f3f3;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}

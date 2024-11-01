@@ -1,0 +1,17 @@
+{
+    "name": "nathan/todolist",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nathan-rs",
+            "email": "nata.ramos@acad.ifma.edu.br"
+        }
+    ],
+    "require": {
+        "twig/twig": "^3.14"
+    }
+}
